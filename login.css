@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+}
+
+.divforlogin > * {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 0.6s ease forwards;
+  }
+  
+  .divforlogin > *:nth-child(1) {
+    animation-delay: 0.1s;
+  }
+  .divforlogin > *:nth-child(2) {
+    animation-delay: 0.2s;
+  }
+  .divforlogin > *:nth-child(3) {
+    animation-delay: 0.3s;
+  }
+  .divforlogin > *:nth-child(4) {
+    animation-delay: 0.4s;
+  }
+  .divforlogin > *:nth-child(5) {
+    animation-delay: 0.5s;
+  }
+  .divforlogin > *:nth-child(6) {
+    animation-delay: 0.6s;
+  }
+  
+  @keyframes fadeInUp {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  
+
+
+.divforlogin{
+    background-color: #ffffff;
+    height: 360px;
+    width: 380px;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.divforlogin h2 {
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.divforlogin p {
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.divforlogin input {
+    height: 40px;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.divforlogin a {
+    color: black;
+    font-size: 17px;
+    text-decoration: none;
+    position: relative;
+    top: 10px;
+}
+
+.divforlogin a:hover{
+    color: #cc2323;
+}
+
+.divforlogin button {
+    height: 38px;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-top: 20px;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    cursor: pointer;
+    background-color: #c70f46; 
+    transition: .6s ease;  
+}
+
+.divforlogin button:hover{
+    background-color: #1f13c2;
+    color: black;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.divforregister {
+    display: flex;
+    gap: 30px;
+}
+
+.divforregister p {
+    color: black;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.divforregister
+.rename {
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+    margin-top: 10px;
+    margin-left: 40px;
+}

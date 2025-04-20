@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    padding: 30px;
+    justify-content: space-around;
+}
+
+header  h2 {
+    font-size: 36px;
+    font-weight: 800;
+    position: relative;
+    top: 10px;
+    cursor: pointer;
+}
+
+header a {
+    position: relative;
+    top: 20px;
+    text-decoration: none;
+    color: black;
+    right: 80px;
+    font-size: 18px;
+}
+
+header a:hover{
+    color: #DF4244;
+}
+header input {
+    width: 404px;
+    height: 48px;
+    border: none;
+    padding: 30px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+header input:hover{
+    border: 1px solid #DF4244;
+}
+
+.divoflinks {
+    display: flex;
+    gap: 25px;
+}
+
+
+.divoflinks img {
+    margin-right: 8px;
+    position: relative;
+    top: 5px;
+}
+
+.card {
+    width: 330px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    height: 170px;
+    margin-left: 1000px;
+    
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .input-group {
+    display: flex;
+    margin-bottom: 15px;
+  }
+  
+  .input-group input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-right: none;
+    border-radius: 5px 0 0 5px;
+    font-size: 14px;
+  }
+  
+  .input-group button {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-left: none;
+    border-radius: 0 6px 6px 0;
+    background-color: rgb(194, 37, 37);
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    width: 85px;
+  }
+  
+  .top {
+    width: 330px;
+    height: 40px;
+    border-radius: 8px;
+    border: 1px solid black;
+    background-color: red;
+    color: #fff;
+    font-size: 13px;
+    cursor: pointer;
+    margin-left: 1000px;
+    margin-top: 50px;
+  }
+
+  .bottom {
+    width: 330px;
+    height: 40px;
+    border-radius: 8px;
+    border: 1px solid black;
+    background-color: red;
+    color: #fff;
+    font-size: 13px;
+    margin-top: 25px;
+    cursor: pointer;
+    margin-left: 1000px;
+    margin-top: 20px;
+  }
+  
+  .bottom-buttons button {
+    flex: 1;
+    padding: 10px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .bottom-buttons button:first-child {
+    margin-left: 0;
+  }
+  
+  .bottom-buttons button:last-child {
+    margin-right: 0;
+  }
+
+
+  button:hover {
+    background-color: #423e83;
+  } 
+
